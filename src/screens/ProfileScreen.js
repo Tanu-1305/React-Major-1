@@ -8,7 +8,7 @@ import './ProfileScreen.css';
 
 function ProfileScreen() {
     const user = useSelector(selectUser);
-
+     console.log(user);
   return (
   <div className='profileScreen'> 
    <Nav />
@@ -19,7 +19,7 @@ function ProfileScreen() {
        src='https://upload.wikimedia.org/wikipedia/commons/0/0b/Netflix-avatar.png' alt=''/>
   
     <div className='profileScreen_details'>
-          <h2>{user.email}</h2>
+          {/* <h2>{user.email}</h2> */}
           <div className='profileScreen_plans'>
             <h3>Plans</h3>
             <PlansScreen />
