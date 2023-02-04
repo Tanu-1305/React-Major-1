@@ -1,7 +1,7 @@
 .loginScreen {
    position: relative;
    height: 100%;
-   background: url('https://assets.nflxext.com/ffe/siteui/vlv3/757ab38f-5d08-40bc-b3eb-eaba63ed8203/93c34f94-56c8-40a7-8b2e-b4aac6427977/GB-en-20210125-popignuptwoweeks-perspective_alpha_website_medium.jpg') center no-repeat;
+   background: url('https://miro.medium.com/max/1400/1*5lyavS59mazOFnb55Z6znQ.png') center no-repeat;
    background-size: cover;
 }
 .loginScreen_body > h1 {
@@ -60,13 +60,12 @@
     padding: 10px;
     outline-width: 0;
     height: 30px;
-    width: 30%;
+    width: 60%;
     border: none;
     max-width: 600px;
 }
 .loginScreen_input {
     margin: 20px;
-
 }
 .loginScreen_getStarted {
     padding: 16px 20px;
